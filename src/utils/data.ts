@@ -2,7 +2,7 @@ export const data = {
     "name" : "Udit Dev",
     "projects_link" : "https://.vercel.app",
     "leetcode_link": "https://leetcode.com/",
-    "linkedin" : "https://linkedin.com/in/",
+    "linkedin" : "www.linkedin.com/in/udit-dev-6631742b1",
     "github" : "https://github.com/uditdev1",
     "project_repo" : "https://github.com/uditdev1/details",
     "about_me_data_1" : "Hi, I’m Udit Dev, currently pursuing a Bachelor's degree in Computer Science and Engineering at RKGIT Ghaziabad.",
