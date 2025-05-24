@@ -56,7 +56,7 @@ const Hero = () => {
                   duration : 0.3,
                   ease : "easeInOut"
                 }}
-                href={data.projects_link} 
+                onClick={() => navigate("/projects")}
                 className="hover:text-neutral-200 [perspective::1000px] [transform-style:preserve-3d] group relative font-medium font-jetbrains w-fit transform cursor-pointer duration-200 hover:text-[2.5rem] m-4 "
               >
                 <span className="group-hover:text-[4rem] duration-200">P</span>
@@ -75,11 +75,11 @@ const Hero = () => {
                   duration : 0.3,
                   ease : "easeInOut"
                 }}
-                href={data.leetcode_link}
+                href={data.geek_for_geek}
                 className="hover:text-neutral-200 [perspective::1000px] [transform-style:preserve-3d] group relative font-medium font-jetbrains w-fit transform cursor-pointer duration-200 hover:text-[2.5rem] m-4 "
               >
-                <span className="group-hover:text-[4rem] duration-200">L</span>
-                eetcode
+                <span className="group-hover:text-[4rem] duration-200">G</span>
+                eek for Geeks
                 <span className="h-[1.1px] absolute opacity-0 group-hover:opacity-100 transition-opacity duration-200 bottom-0 left-0 w-full bg-gradient-to-r from-transparent via-yellow-500 to-transparent"></span>
                 <span className="h-[5px] absolute opacity-0 group-hover:opacity-100 transition-opacity duration-200 bottom-0 left-0 w-full bg-gradient-to-r blur-sm from-transparent via-yellow-500 to-transparent"></span>
                 <span className="h-[2px] left-[30%] absolute opacity-0 group-hover:opacity-100 transition-opacity duration-200 bottom-0 left-0 w-1/2 bg-gradient-to-r blur-sm from-transparent via-yellow-300 to-transparent"></span>
